@@ -8,8 +8,29 @@ A Simple text editor made in Python with `tkinter` and `filedialog`
 --- 
 ## Requirements
 - Python 3.7+:
-    - Tkinter (Usually comes with python)
+    - CustomTkinter
     - filedialog (built-in tkinter)
+
+    ```bash
+    # Make a Virtual Environment
+
+    # Linux/Mac
+    python3 -m venv .venv
+
+    # Windows
+    py -m venv .venv
+
+    # Activate the Virtual Environment
+
+    # Linux/Mac
+    source .venv/bin/activate
+
+    # Windows
+    .venv\Scripts\activate.bat
+
+    # Download required packages
+    pip install customtkinter
+    ```
 
 ---
 
