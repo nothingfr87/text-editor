@@ -24,14 +24,17 @@ class Editor:
         self.display_elements()
 
     def display_elements(self):
-        self.save_button = CTkButton(window, corner_radius=5, text="Save File", font=("monospace", 17), command=self.save_file)
-        self.save_button.pack(side=BOTTOM, pady=20)
+        buttons_frame = CTkFrame(self.window)
+        buttons_frame.pack()
 
-        self.save_as_button = CTkButton(window, corner_radius=5, text="Save File As", font=("monospace", 17), command=self.save_file_as)
-        self.save_as_button.pack(side=BOTTOM)
+        self.save_button = CTkButton(buttons_frame, corner_radius=5, text="Save File", font=("monospace", 17), command=self.save_file)
+        self.save_button.grid(row=0, column=0, padx=10)
 
-        self.open_button = CTkButton(window, corner_radius=5, text="Open File", font=("monospace", 17), command=self.open_file)
-        self.open_button.pack(side=BOTTOM, pady=20)
+        self.save_as_button = CTkButton(buttons_frame, corner_radius=5, text="Save File As", font=("monospace", 17), command=self.save_file_as)
+        self.save_as_button.grid(row=0, column=1, padx=10)
+
+        self.open_button = CTkButton(buttons_frame, corner_radius=5, text="Open File", font=("monospace", 17), command=self.open_file)
+        self.open_button.grid(row=0, column=2, padx=10)
 
         self.text_field = CTkTextbox(window, corner_radius=10, font=("monospace", 18))
         self.text_field.pack(fill=BOTH, expand=True, pady=10, padx=10)
