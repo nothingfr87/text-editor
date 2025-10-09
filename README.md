@@ -2,10 +2,6 @@
 A Simple text editor made in Python with `tkinter` and `filedialog`
 
 ---
-## Contents:
-
-
---- 
 ## Requirements
 - Python 3.7+:
     - CustomTkinter
