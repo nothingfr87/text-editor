@@ -31,7 +31,7 @@ A Simple text editor made in Python with `tkinter` and `filedialog`
 ---
 
 ## Installtion:
-You'll find an executable in [Releases Tab](https://github.com/peanutbutte-r/text-editor/releases), run it and you can use the text editor
+You'll find an executable in [Releases Tab](https://github.com/nothingfr87/text-editor/releases), run it and you can use the text editor
 
 ---
 
@@ -41,7 +41,7 @@ Contributions are welocome whether they are code improvement, or adding new feat
 ---
 
 ## Issues
-If you find any issues, please report at [Issues](https://github.com/peanutbutte-r/text-editor/issues)
+If you find any issues, please report at [Issues](https://github.com/nothingfr87/text-editor/issues)
 
 ---
 
